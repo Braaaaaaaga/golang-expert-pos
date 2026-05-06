@@ -5,15 +5,13 @@ Serviço em Go que recebe um CEP, busca a cidade via ViaCEP e retorna a temperat
 ## URL no Cloud Run
 
 ```
-https://<sua-url>.run.app
+https://cloud-weather-66638586048.us-central1.run.app
 ```
-
-> Substitua pela URL gerada após o deploy no Cloud Run.
 
 ## Requisição
 
 ```bash
-curl https://<sua-url>.run.app/01310100
+curl https://cloud-weather-66638586048.us-central1.run.app/01310100
 ```
 
 Resposta (200):
